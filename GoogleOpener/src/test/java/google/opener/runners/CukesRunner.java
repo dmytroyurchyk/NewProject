@@ -11,7 +11,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		tags = "@Test",
 		features= {"resources/google/opener/features/"},
 		glue="google/opener/step_definitions/",
-		dryRun=true 
+		dryRun=false 
 )
 public class CukesRunner extends AbstractTestNGCucumberTests {
 	
